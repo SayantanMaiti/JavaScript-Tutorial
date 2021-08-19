@@ -99,7 +99,7 @@ function numberToChoice(number){ //returns [0,1] if we lose [0.5,0.5] if draw
 function decideWinner(yourChoice, computerChoice){
     var rpsDatabase={
         'rock':{'scissors':1, 'rock':0.5, 'paper':0},
-        'paper':{'scissors':0, 'rock':1, 'paper':0},
+        'paper':{'scissors':0, 'rock':1, 'paper':0.5},
         'scissors':{'scissors':0.5, 'rock':0, 'paper':1}
     };
 
